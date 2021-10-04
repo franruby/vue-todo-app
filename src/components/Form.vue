@@ -47,6 +47,7 @@ export default {
   data: () => ({
     title: null,
     content: null,
+    invalidTaskAlert: false
   }),
   methods: {
     closeForm() {
@@ -57,7 +58,13 @@ export default {
         title: this.title,
         content: this.content,
       };
-      this.adder(newTask);
+      if (!newTask.title) {
+        alert('La el título de la tarea no puede ir vacía')
+      } else {
+        this.adder(newTask)
+        this.title = ''
+        this.content = ''
+      }
     },
   },
 };

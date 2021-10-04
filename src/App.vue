@@ -48,16 +48,6 @@ export default {
         content:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo repellendus, suscipit dolorum eligendi possimus nesciunt nihil doloribus aperiam nobis in ad hic fuga est eum molestias blanditiis magnam quaerat.",
       },
-      {
-        title: "Title 4",
-        content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo repellendus, suscipit dolorum eligendi possimus nesciunt nihil doloribus aperiam nobis in ad hic fuga est eum molestias blanditiis magnam quaerat.",
-      },
-      {
-        title: "Title 5",
-        content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quo repellendus, suscipit dolorum eligendi possimus nesciunt nihil doloribus aperiam nobis in ad hic fuga est eum molestias blanditiis magnam quaerat.",
-      },
     ],
     showFormControl: false,
   }),
